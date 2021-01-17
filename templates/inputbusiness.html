@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- <link href="static/styles/style2.css" 
+    rel="stylesheet" type="text/css" /> -->
+    
+    <link rel="stylesheet" type="text/css" href="static/styles/style2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet">
+    <style>
+      /* general background */
+body {
+  /* background-color: #F8F8F7; */
+  background-color: #F8F8F7
+}
+/* SEE SAFE HEADER/big logo */
+#bigLogo{
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+/* logo */
+#smallLogo {
+  position: absolute;
+  width: 115px;
+  height: 118px;
+  left: 26px;
+  top: 28px;
+  background: url(logo.png);
+}
+.businessrec{
+  position: absolute;
+width: 190px;
+height: 64px;
+left: 426px;
+top: 64px;
+
+background: rgba(187, 140, 116, 0.3);
+
+}
+.businessrec1{
+position: absolute;
+width: 124px;
+height: 34px;
+left: 459px;
+top: 79px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2B3453;
+}
+.grad{
+  position: absolute;
+width: 1440px;
+height: 229px;
+left: 0px;
+top: 199px;
+
+}
+.gradtext{
+position: absolute;
+width: 393px;
+height: 95px;
+left: 520px;
+top: 290px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+text-align: center;
+
+color: #F8F8F7;
+}
+.gradparagraph{
+  position: absolute;
+width: 1066px;
+height: 139px;
+left: 171px;
+top: 483px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #2B3453;
+
+}
+
+/* textfield */
+.textfield{
+   position: absolute;
+width: 1066px;
+height: 139px;
+left: 500px;
+top: 600px;
+}
+.submit{
+     position: absolute;
+width: 1066px;
+height: 139px;
+left: 850px;
+top: 620px;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  width: 30%;
+  height: calc(4em + 1px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+  resize: none;
+  outline: none;
+}
+
+input[type="text"][required]:focus {
+  border-color: #00bafa;
+}
+input[type="text"][required]:focus + label[placeholder]:before {
+  color: #00bafa;
+}
+input[type="text"][required]:focus + label[placeholder]:before,
+input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: .2s;
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+
+input[type="text"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+
+input[type="text"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+
+input[type="text"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* textfield for number */
+.textfield{
+   position: absolute;
+width: 1066px;
+height: 139px;
+left: 500px;
+top: 600px;
+}
+.submit{
+     position: absolute;
+width: 1066px;
+height: 139px;
+left: 850px;
+top: 690px;
+}
+input[type="number"] {
+  box-sizing: border-box;
+  width: 30%;
+  height: calc(4em + 1px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+  resize: none;
+  outline: none;
+}
+
+input[type="number"][required]:focus {
+  border-color: #00bafa;
+}
+input[type="text"][required]:focus + label[placeholder]:before {
+  color: #00bafa;
+}
+input[type="text"][required]:focus + label[placeholder]:before,
+input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: .2s;
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+
+input[type="number"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+
+input[type="number"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+
+input[type="number"][required] + label[placeholder]:before {
+  content: attr();
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <script src="static/styles/script.js"></script>
+    <a href="/">
+    <img id="smallLogo" src="static/assets/logo.png" alt="See Safe Small Logo"></a>
+    <img id="bigLogo" src="static/assets/SEE SAFE.png" alt="See Safe Big  Logo" width="350" height="200">
+    <div class="businessrec"></div>
+    <div class="businessrec1">business</div>
+    <img class="grad" src="static/assets/gradient.png" alt="background2">
+    <div class="gradtext">Add Your Business</div>
+    <div class="gradparagraph">Enter your business name below to get started tracking and storing your customers’ visit</div>
+    <div class="textfield"><form><input required='' type='text' id="distance">
+    <label alt='Business' placeholder='Enter business name'></label>
+    <input required='' type="number" id="quantity"
+    min="0">
+    <label alt='Current People' placeholder='Enter amount of people currently'></label>
+    </form></div>
+    <div onclick="submittedButton()">
+    <a href="businessmode">
+    <div class="submit" >Submit</div></a></div>
+    <script>
+    function submittedButton() {
+      var xhr = new XMLHttpRequest();
+      var userInput = document.getElementById('distance').value;
+      var userInput2 = document.getElementById('quantity').value;
+      xhr.open('POST', '/submitted', true);
+      var businessData = [userInput, userInput2];
+      xhr.send(businessData);
+      }
+    </script>
+  </body>
+</html>
+
+
+
+
+

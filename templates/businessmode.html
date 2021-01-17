@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="static/styles/style3.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet">
+   
+  </head>
+  <body>
+    <script src="static/styles/script.js"></script>
+    <a href="/">
+    <img id="smallLogo" src="static/assets/logo.png" alt="See Safe Small Logo"></a>
+    <img id="bigLogo" src="static/assets/SEE SAFE.png" alt="See Safe Big  Logo" width="350" height="200">
+    <div class="businessrec"></div>
+    <div class="businessrec1">business</div>
+    <div>
+    <script>
+      var name1 = {{ name1|safe }}
+    </script>
+    <div class="businessName">{{ name1 }}</div></div>
+    <div class="track">Track</div> 
+    <div class="current">Current Count</div> 
+
+  </body>
+</html>
+

@@ -1,0 +1,102 @@
+/* general background */
+body {
+  background-color: #F8F8F7;
+
+}
+/* SEE SAFE HEADER/big logo */
+#bigLogo{
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+/* logo */
+#smallLogo {
+  position: absolute;
+  width: 115px;
+  height: 118px;
+  left: 26px;
+  top: 28px;
+  background: url(logo.png);
+}
+/* business logo box and words*/
+
+.businessrec{
+  position: absolute;
+width: 190px;
+height: 64px;
+left: 426px;
+top: 64px;
+
+background: rgba(187, 140, 116, 0.3);
+
+}
+.businessrec1{
+position: absolute;
+width: 124px;
+height: 34px;
+left: 459px;
+top: 79px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2B3453;
+}
+/* business name that changes */
+.businessName{
+  position: absolute;
+width: 522px;
+height: 106px;
+left: 879px;
+top: 60px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+text-align: center;
+
+color: #ACA4AA;
+}
+.current{
+  position: absolute;
+width: 294px;
+height: 37px;
+left: 374px;
+top: 216px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+color: #2B3453;
+
+}
+.track{
+  position: absolute;
+width: 70px;
+height: 37px;
+left: 827px;
+top: 216px;
+
+font-family: Gudea;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2B3453;
+}

@@ -1,0 +1,174 @@
+/* general background */
+body {
+  background-color: #F8F8F7;
+
+}
+
+/* arrow_drop_down_circle icon */
+.material-icons.arrow { 
+position: absolute;
+font-size: 102px;
+/* left: 683px;
+top: 483px; */
+left: 683px;
+top: 350px;
+color: #9BBEE6;
+}
+/* person icon */
+
+.material-icons.person { 
+  position: absolute;
+  font-size: 86px;
+  left: 883px;
+  top: 649px;
+  color: #BB8C74; 
+}
+/* business icon */
+.material-icons.business { 
+  position: absolute;
+  font-size: 86px;
+  left: 486px;
+  top: 642px;
+  color: #BB8C74; 
+
+}
+/* SEE SAFE HEADER/big logo */
+#bigLogo{
+  position: relative;
+  /* width: 992px;
+  height: 489px;
+   */
+  /* width: 1800px;
+  height: 1200px; */
+  /* left: 224px;
+  top: 239px; */
+  left: 340px;
+  top: 40px;
+  /* background: url(SEE SAFE.png); */
+}
+/* motto: a simple business & people oriented tracker  */
+p#motto {
+  position: absolute;
+  width: 566px;
+  height: 37px;
+  /* left: 451px; */
+  left: 460px;
+  top: 200px;
+  z-index: 1;
+  /* top: 385px; */
+
+  font-family: Gudea;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: center;
+  color: #2B3453;
+}
+/* business button */
+p#businessOption {
+  position: absolute;
+  width: 111px;
+  height: 37px;
+  left: 474px;
+  top: 700px;
+
+  font-family: Gudea;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: center;
+  color: #2B3453;
+}
+/* human button */
+p#humanOption { 
+  position: absolute;
+  width: 91px;
+  height: 37px;
+  left: 880px;
+  /* top: 748px; */
+  top: 700px;
+
+  font-family: Gudea;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: center;
+  color: #2B3453;
+}
+/* logo */
+#smallLogo {
+  position: absolute;
+  width: 115px;
+  height: 118px;
+  left: 26px;
+  top: 28px;
+  /* background: url(logo.png); */
+}
+/* decorative rectangles */
+
+.rectangle1{
+
+  position: absolute;
+  width: 124px;
+  height: 529px;
+  left: 248px;
+  /* top: 108px; */
+  bottom: 1px;
+
+  background: rgba(155, 190, 230, 0.2);
+}
+.rectangle2{
+  position: absolute;
+  width: 124px;
+  height: 92px;
+  left: 453px;
+  /* top: 470px; */
+  bottom: 1px;
+  background: rgba(155, 190, 230, 0.2);
+}
+.rectangle3{
+  position: absolute;
+  width: 124px;
+  height: 270px;
+  left: 658px;
+  /* top: 355px; */
+  bottom: 1px;
+  background: rgba(155, 190, 230, 0.2);
+}
+.rectangle4{
+  position: absolute;
+  width: 124px;
+  height: 92px;
+  left: 863px;
+  /* top: 559px; */
+  bottom: 1px;
+  background: rgba(155, 190, 230, 0.2);
+}
+.rectangle5{
+  position: absolute;
+  width: 124px;
+  height: 430px;
+  left: 1068px;
+  /* top: 400px; */
+  bottom: 1px;
+  background: rgba(155, 190, 230, 0.2);
+  
+}
+.business1{
+  position: absolute;
+  left: 1px;
+  top: -150px;
+
+}
+.person1{
+  position: absolute;
+  left: 1px;
+  top: -150px;
+
+}
